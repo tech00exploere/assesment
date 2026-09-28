@@ -4,7 +4,7 @@ CREATE TYPE "JobStatus" AS ENUM ('pending', 'running', 'completed', 'failed');
 -- CreateTable
 CREATE TABLE "Job" (
     "id" TEXT NOT NULL,
-    "title" TEXT NOT NULL,//make change
+    "title" TEXT NOT NULL,#//make change
     "type" TEXT NOT NULL,
     "status" "JobStatus" NOT NULL DEFAULT 'pending',
     "version" INTEGER NOT NULL DEFAULT 1,
