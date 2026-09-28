@@ -10,6 +10,5 @@ CREATE TABLE "Job" (
     "version" INTEGER NOT NULL DEFAULT 1,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
-
     CONSTRAINT "Job_pkey" PRIMARY KEY ("id")
 );
