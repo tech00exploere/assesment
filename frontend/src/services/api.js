@@ -9,7 +9,7 @@ const api = axios.create({
   },
 });
 
-export const getJobs = async (status = '', page = 1, limit = 50) => {
+export const getJobs = async (status = '', page = 1, limit = 50) => {//
   const params = {};
   if (status) params.status = status;
   if (page) params.page = page;
